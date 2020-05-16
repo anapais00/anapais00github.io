@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 16px;
+	background-image: url();
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(206,199,239);
+}
+
+.back{
+	font-size: 20px;
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	z-index: 2
+}
+
+.back a{
+	text-decoration: none;
+	opacity: 0.8;
+	color: rgb(102, 84, 154);
+}
+
+
+.curriculo{
+	height: 100vh;
+	text-align: center;
+	font-size: 150px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	padding-top: 150px;
+}
+
+.cv h1{
+	position: absolute;
+	width: 100%;
+	padding-top: 50px;
+	font-size: 110px;
+}
+
+.curriculo p{
+	font-size: 35px;
+	display: inline-block;
+	padding-top: 250px;
+}
+
+.curriculo a{
+	text-decoration: none;
+	color: rgb(102, 84, 154);
+;
+}
+
+.back img:hover {
+	opacity: 0.5;
+}
+
+.timeline{
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 150px;
+}
+
+.timeline h2{
+	color: rgb(102, 84, 154);
+	letter-spacing: 15px;
+}
+
+.left, .right{
+	width: 49%;
+	display: inline-block;
+}
+
+.left{
+	text-align: right;
+}
+
+.right{
+	text-align: left;
+}
+
+
+
+.skills img{
+	height: 110px;
+	width: auto;
+	margin: 10px;
+	width: 30%;
+	display: inline-block;
+
+}
+
+.skills{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.skills h1{
+	text-align: center;
+	font-size: 35px;
+	color: rgb(102, 84, 154);
+	letter-spacing: 15px;
+
+}
+
+.line{
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.third, .tre{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.third p{
+	text-align: center;
+	margin: 10px;
+}
+
+.third img{
+	height: 90px;
+	width: auto;
+	margin-bottom: 30px;
+	margin-top: 80px;
+}
+
+.languages{
+	margin-top: 200px;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.languages h2{
+	color: rgb(102, 84, 154);
+	letter-spacing: 15px;
+	font-size: 35px;
+}
+
+.languages h3{
+	font-size: 22px;
+}
+
+.sinistra, .destra{
+	width: 48%;
+	display: inline-block;
+}
+
+.sinistra{
+	text-align: right;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.destra{
+	text-align: left;
+	margin-left: 10px;
+}
+
+
+.awards{
+	padding-top: 50px;
+	padding-bottom: 200px;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.premio img{
+	height: 120px;
+	width: auto;
+	margin-bottom: 50px;
+
+}
+
+.tre h3, .tre h2, .tre p{
+	text-align: center;
+}
+
+.tre h3{
+	letter-spacing: 15px;
+}
+
+
+.tre h2{
+	color: rgb(102, 84, 154);
+}
+
+.volta img{
+	height: 40px;
+	width: auto;
+	opacity: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	transform: rotate(180deg);
+	opacity: 0.5;
+
+	transition: all 0.25s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ana.pais</title>
+	<link rel="stylesheet" type="text/css" href="anapais.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<section class="home" id="home">
+		<div class="top">
+			<a href=https://www.instagram.com/ana_pais00/ target="_blank">
+				<img src="imagens/Ainsta.svg">
+			</a>
+			<a href=https://www.behance.net/anapais001a7f5 target="_blank">
+				<img src="imagens/Abehance.svg">
+			</a>
+			<a href="mailto:ana.pais0015@gmail.com">
+				<img src="imagens/Amail.svg">
+			</a>
+		</div>
+		<div class="middle">
+		
+			<h1></h1>
+			<p>
+				<a href="curriculum.html">
+				CURRICULUM
+				</a>
+			</p>
+		</div>
+		<div class="bottom">
+			<a href="#about">
+				<img src="imagens/Aseta.svg">
+			</a>
+		</div>
+	</section>
+
+
+	<section class="about" id="about">
+		<div class="topo">
+			<a href="#home">
+				<img src="imagens/seta.svg">
+			</a>
+		</div>
+		<div class="eu">
+			<div class="coluna">
+				<div class="meio">
+				  <h1>DESIGN<br>STUDENT</h1>
+				</div>
+			</div>
+			<div class="coluna">
+				<div class="coluna1">
+					<b>VOLLEYBALL</b> to keep fit<br>
+					<b>PATTERNS</b> to not get bored<br>
+				</div>
+			</div>
+			<div class="coluna">
+				<div class="coluna2">
+					PORTO, PORTUGAL<br>
+					21 years old<br>
+					Design at AVEIRO UNIVERSITY<br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).on('click', '.bottom a, .about a', function(event){
+		    event.preventDefault();
+
+		    $('html, body').animate({
+		        scrollTop: $( $.attr(this, 'href') ).offset().top
+		    }, 500);
+		});
+	</script>
+</body>
+</html>

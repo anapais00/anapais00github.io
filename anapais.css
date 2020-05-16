@@ -1,0 +1,160 @@
+
+body{
+	margin: 0;
+	background-color: rgb(102, 84, 154);
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 13px;
+}
+
+a{ color: mediumpurple;
+	text-decoration:none;
+}
+
+.home,.about{
+	height: 100vh;
+}
+
+.home{
+	background-color: rgb(102, 84, 154);
+	text-align: center;
+	background-image: url(eu%20eu.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.about{
+	background-image: url(roxojpg-03.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+
+
+.top{
+	top: 40px;
+}
+
+.top img{
+	height: 30px;
+	width: auto;
+	margin: 10px;
+
+}
+
+
+
+.middle{
+	top: 35vh;
+}
+
+.middle h1{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 90px;
+}
+
+.middle p, .middle h1{
+	display: inline-block;
+}
+
+.middle p{
+	font-size: 30px;
+	top: 45vh;
+}
+
+
+
+.bottom,.middle,.top{
+	position: absolute;
+	width: 100%;
+}
+
+.bottom{
+	bottom: 40px;
+
+}
+
+.bottom img{
+	height: 40px;
+	width: auto;
+	opacity: 0.5;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.bottom img:hover {
+	opacity: 1;
+}
+
+
+.topo{
+	top: 40px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+
+.topo img{
+	height: 40px;
+	width: auto;
+	opacity: 1;
+	padding-left: 50px;
+	padding-right: 50px;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.topo img:hover {
+	opacity: 1;
+}
+
+.meio h1{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 430px;
+	font-size: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.about img{
+	transform: rotate(180deg);
+	opacity: 0.5;
+
+	transition: all 0.25s ease-in-out;
+}
+
+.about img:hover {
+	opacity: 1;
+}
+
+.coluna{
+	width: 33%;
+	display: inline-block;
+}
+
+.coluna1{
+	padding-left: 100px;
+	font-size: 18px;
+}
+
+.coluna2{
+	padding-left: 50px;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 60px;
+}
+
+
+/* FOR MOBILE! :D */
+
+
+@media (max-width: 558px) {
+	body {
+		color: whitesmoke;
+	}
+}
